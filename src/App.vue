@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <MyName />
+    <MyName name = 'Adenike Salau'
+    />
   </div>
 </template>
 
@@ -11,7 +12,7 @@ export default {
   name: 'App',
   components: {
     MyName
-  }
+  },
 }
 </script>
 
